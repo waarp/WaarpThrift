@@ -893,7 +893,6 @@ public class R66Service {
 		private static class transferRequestQuery_argsTupleScheme extends
 				TupleScheme<transferRequestQuery_args> {
 
-			@Override
 			public void write(org.apache.thrift.protocol.TProtocol prot,
 					transferRequestQuery_args struct) throws org.apache.thrift.TException {
 				TTupleProtocol oprot = (TTupleProtocol) prot;
@@ -907,7 +906,6 @@ public class R66Service {
 				}
 			}
 
-			@Override
 			public void read(org.apache.thrift.protocol.TProtocol prot,
 					transferRequestQuery_args struct) throws org.apache.thrift.TException {
 				TTupleProtocol iprot = (TTupleProtocol) prot;
@@ -1279,7 +1277,6 @@ public class R66Service {
 		private static class transferRequestQuery_resultTupleScheme extends
 				TupleScheme<transferRequestQuery_result> {
 
-			@Override
 			public void write(org.apache.thrift.protocol.TProtocol prot,
 					transferRequestQuery_result struct) throws org.apache.thrift.TException {
 				TTupleProtocol oprot = (TTupleProtocol) prot;
@@ -1293,7 +1290,6 @@ public class R66Service {
 				}
 			}
 
-			@Override
 			public void read(org.apache.thrift.protocol.TProtocol prot,
 					transferRequestQuery_result struct) throws org.apache.thrift.TException {
 				TTupleProtocol iprot = (TTupleProtocol) prot;
@@ -1662,7 +1658,6 @@ public class R66Service {
 		private static class infoTransferQuery_argsTupleScheme extends
 				TupleScheme<infoTransferQuery_args> {
 
-			@Override
 			public void write(org.apache.thrift.protocol.TProtocol prot,
 					infoTransferQuery_args struct) throws org.apache.thrift.TException {
 				TTupleProtocol oprot = (TTupleProtocol) prot;
@@ -1676,7 +1671,6 @@ public class R66Service {
 				}
 			}
 
-			@Override
 			public void read(org.apache.thrift.protocol.TProtocol prot,
 					infoTransferQuery_args struct) throws org.apache.thrift.TException {
 				TTupleProtocol iprot = (TTupleProtocol) prot;
@@ -2045,7 +2039,6 @@ public class R66Service {
 		private static class infoTransferQuery_resultTupleScheme extends
 				TupleScheme<infoTransferQuery_result> {
 
-			@Override
 			public void write(org.apache.thrift.protocol.TProtocol prot,
 					infoTransferQuery_result struct) throws org.apache.thrift.TException {
 				TTupleProtocol oprot = (TTupleProtocol) prot;
@@ -2059,7 +2052,6 @@ public class R66Service {
 				}
 			}
 
-			@Override
 			public void read(org.apache.thrift.protocol.TProtocol prot,
 					infoTransferQuery_result struct) throws org.apache.thrift.TException {
 				TTupleProtocol iprot = (TTupleProtocol) prot;
@@ -2618,7 +2610,6 @@ public class R66Service {
 		private static class isStillRunning_argsTupleScheme extends
 				TupleScheme<isStillRunning_args> {
 
-			@Override
 			public void write(org.apache.thrift.protocol.TProtocol prot, isStillRunning_args struct)
 					throws org.apache.thrift.TException {
 				TTupleProtocol oprot = (TTupleProtocol) prot;
@@ -2644,7 +2635,6 @@ public class R66Service {
 				}
 			}
 
-			@Override
 			public void read(org.apache.thrift.protocol.TProtocol prot, isStillRunning_args struct)
 					throws org.apache.thrift.TException {
 				TTupleProtocol iprot = (TTupleProtocol) prot;
@@ -3016,7 +3006,6 @@ public class R66Service {
 		private static class isStillRunning_resultTupleScheme extends
 				TupleScheme<isStillRunning_result> {
 
-			@Override
 			public void write(org.apache.thrift.protocol.TProtocol prot,
 					isStillRunning_result struct) throws org.apache.thrift.TException {
 				TTupleProtocol oprot = (TTupleProtocol) prot;
@@ -3030,7 +3019,6 @@ public class R66Service {
 				}
 			}
 
-			@Override
 			public void read(org.apache.thrift.protocol.TProtocol prot, isStillRunning_result struct)
 					throws org.apache.thrift.TException {
 				TTupleProtocol iprot = (TTupleProtocol) prot;
@@ -3397,7 +3385,6 @@ public class R66Service {
 
 		private static class infoListQuery_argsTupleScheme extends TupleScheme<infoListQuery_args> {
 
-			@Override
 			public void write(org.apache.thrift.protocol.TProtocol prot, infoListQuery_args struct)
 					throws org.apache.thrift.TException {
 				TTupleProtocol oprot = (TTupleProtocol) prot;
@@ -3411,7 +3398,6 @@ public class R66Service {
 				}
 			}
 
-			@Override
 			public void read(org.apache.thrift.protocol.TProtocol prot, infoListQuery_args struct)
 					throws org.apache.thrift.TException {
 				TTupleProtocol iprot = (TTupleProtocol) prot;
@@ -3818,7 +3804,6 @@ public class R66Service {
 		private static class infoListQuery_resultTupleScheme extends
 				TupleScheme<infoListQuery_result> {
 
-			@Override
 			public void write(org.apache.thrift.protocol.TProtocol prot, infoListQuery_result struct)
 					throws org.apache.thrift.TException {
 				TTupleProtocol oprot = (TTupleProtocol) prot;
@@ -3838,7 +3823,6 @@ public class R66Service {
 				}
 			}
 
-			@Override
 			public void read(org.apache.thrift.protocol.TProtocol prot, infoListQuery_result struct)
 					throws org.apache.thrift.TException {
 				TTupleProtocol iprot = (TTupleProtocol) prot;

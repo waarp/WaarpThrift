@@ -55,7 +55,6 @@ public class ServerExample implements Runnable {
 	private static boolean isBlocking = true;
 	private static final int PORT = 7911;
 
-	@Override
 	public void run() {
 		try {
 			TServerTransport serverTransport = null;

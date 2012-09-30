@@ -89,7 +89,6 @@ public class ClientExample implements Runnable {
 		}
 	}
 
-	@Override
 	public void run() {
 		try {
 			TTransport transport = null;

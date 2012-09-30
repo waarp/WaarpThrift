@@ -116,7 +116,6 @@ public class ClientExample implements Runnable {
 				+ ((tries * 1000 * nb) / (end - start)));
 	}
 
-	@Override
 	public void run() {
 		try {
 			TTransport transport = null;

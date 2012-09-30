@@ -2204,7 +2204,6 @@ public class R66Result implements org.apache.thrift.TBase<R66Result, R66Result._
 
 	private static class R66ResultTupleScheme extends TupleScheme<R66Result> {
 
-		@Override
 		public void write(org.apache.thrift.protocol.TProtocol prot, R66Result struct)
 				throws org.apache.thrift.TException {
 			TTupleProtocol oprot = (TTupleProtocol) prot;
@@ -2317,7 +2316,6 @@ public class R66Result implements org.apache.thrift.TBase<R66Result, R66Result._
 			}
 		}
 
-		@Override
 		public void read(org.apache.thrift.protocol.TProtocol prot, R66Result struct)
 				throws org.apache.thrift.TException {
 			TTupleProtocol iprot = (TTupleProtocol) prot;
