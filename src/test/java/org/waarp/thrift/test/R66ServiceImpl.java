@@ -25,7 +25,6 @@ import org.waarp.thrift.r66.ErrorCode;
 import org.waarp.thrift.r66.R66Request;
 import org.waarp.thrift.r66.R66Result;
 import org.waarp.thrift.r66.R66Service;
-import org.waarp.thrift.r66.R66Service.Iface;
 
 /**
  * @author bregier
