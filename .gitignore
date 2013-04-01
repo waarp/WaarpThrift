@@ -6,6 +6,8 @@
 .project
 .metadata
 bin/
+target/
+/target
 tmp/
 *.tmp
 *.bak
@@ -44,5 +46,3 @@ Thumbs.db
 
 # Folder config file
 Desktop.ini
-target/
-/target
