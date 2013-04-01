@@ -7,7 +7,6 @@
 .metadata
 bin/
 target/
-/target
 tmp/
 *.tmp
 *.bak
