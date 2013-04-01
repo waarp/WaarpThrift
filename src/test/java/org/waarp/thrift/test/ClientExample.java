@@ -23,8 +23,6 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.thrift.TException;
 import org.apache.thrift.protocol.TBinaryProtocol;
-import org.apache.thrift.protocol.TCompactProtocol;
-import org.apache.thrift.protocol.TJSONProtocol;
 import org.apache.thrift.protocol.TProtocol;
 import org.apache.thrift.transport.TFramedTransport;
 import org.apache.thrift.transport.TSocket;
@@ -35,7 +33,6 @@ import org.waarp.thrift.r66.R66Request;
 import org.waarp.thrift.r66.R66Result;
 import org.waarp.thrift.r66.R66Service;
 import org.waarp.thrift.r66.RequestMode;
-import org.waarp.thrift.r66.R66Service.Client;
 
 /**
  * @author "Frederic Bregier"
@@ -116,7 +113,6 @@ public class ClientExample implements Runnable {
 				+ ((tries * 1000 * nb) / (end - start)));
 	}
 
-	@Override
 	public void run() {
 		try {
 			TTransport transport = null;

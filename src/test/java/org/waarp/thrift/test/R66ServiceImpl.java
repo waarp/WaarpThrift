@@ -25,7 +25,6 @@ import org.waarp.thrift.r66.ErrorCode;
 import org.waarp.thrift.r66.R66Request;
 import org.waarp.thrift.r66.R66Result;
 import org.waarp.thrift.r66.R66Service;
-import org.waarp.thrift.r66.R66Service.Iface;
 
 /**
  * @author bregier
@@ -33,7 +32,6 @@ import org.waarp.thrift.r66.R66Service.Iface;
  */
 public class R66ServiceImpl implements R66Service.Iface {
 
-	@Override
 	public R66Result transferRequestQuery(R66Request request) throws TException {
 		R66Result result = new R66Result(request.getMode(), ErrorCode.CompleteOk, "Test only");
 		result.setFromuid(request.getFromuid());
@@ -54,7 +52,6 @@ public class R66ServiceImpl implements R66Service.Iface {
 		return result;
 	}
 
-	@Override
 	public R66Result infoTransferQuery(R66Request request) throws TException {
 		R66Result result = new R66Result(request.getMode(), ErrorCode.CompleteOk, "Test Info only");
 		result.setDestuid(request.getDestuid());
@@ -72,12 +69,10 @@ public class R66ServiceImpl implements R66Service.Iface {
 		return result;
 	}
 
-	@Override
 	public boolean isStillRunning(String fromuid, String touid, long tid) throws TException {
 		return true;
 	}
 
-	@Override
 	public List<String> infoListQuery(R66Request request) throws TException {
 		List<String> list = new ArrayList<String>(2);
 		list.add("listing file1 test 000");
