@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pmd-cpd>
 <duplication lines="52" tokens="372">
-<file line="1318" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Request.java"/>
-<file line="1889" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Result.java"/>
+<file line="1320" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Request.java"/>
+<file line="1891" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Result.java"/>
 <codefragment>
 <![CDATA[
 		public void read(org.apache.thrift.protocol.TProtocol iprot, R66Request struct)
@@ -61,8 +61,8 @@
 </codefragment>
 </duplication>
 <duplication lines="26" tokens="347">
-<file line="193" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Request.java"/>
-<file line="245" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Result.java"/>
+<file line="194" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Request.java"/>
+<file line="246" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Result.java"/>
 <codefragment>
 <![CDATA[
 			_Fields.NOTRACE, _Fields.TID, _Fields.ACTION };
@@ -95,8 +95,8 @@
 </codefragment>
 </duplication>
 <duplication lines="55" tokens="343">
-<file line="994" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Request.java"/>
-<file line="1424" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Result.java"/>
+<file line="995" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Request.java"/>
+<file line="1425" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Result.java"/>
 <codefragment>
 <![CDATA[
 		R66Request typedOther = (R66Request) other;
@@ -116,8 +116,8 @@
 			return lastComparison;
 		}
 		if (isSetFromuid()) {
-			lastComparison = org.apache.thrift.TBaseHelper
-					.compareTo(this.fromuid, typedOther.fromuid);
+			lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.fromuid,
+					typedOther.fromuid);
 			if (lastComparison != 0) {
 				return lastComparison;
 			}
@@ -158,8 +158,8 @@
 </codefragment>
 </duplication>
 <duplication lines="78" tokens="335">
-<file line="939" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="1706" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="938" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="1715" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
 <codefragment>
 <![CDATA[
 			schemes.put(TupleScheme.class, new transferRequestQuery_resultTupleSchemeFactory());
@@ -244,9 +244,9 @@
 </codefragment>
 </duplication>
 <duplication lines="78" tokens="335">
-<file line="553" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="1323" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="3059" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="547" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="1327" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="3080" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
 <codefragment>
 <![CDATA[
 			schemes.put(TupleScheme.class, new transferRequestQuery_argsTupleSchemeFactory());
@@ -331,9 +331,9 @@
 </codefragment>
 </duplication>
 <duplication lines="72" tokens="289">
-<file line="942" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="1709" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="3444" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="941" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="1718" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="3470" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
 <codefragment>
 <![CDATA[
 		private R66Result success; // required
@@ -412,8 +412,8 @@
 </codefragment>
 </duplication>
 <duplication lines="50" tokens="287">
-<file line="859" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Request.java"/>
-<file line="1226" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Result.java"/>
+<file line="860" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Request.java"/>
+<file line="1227" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Result.java"/>
 <codefragment>
 <![CDATA[
 	public boolean equals(R66Request that) {
@@ -470,8 +470,8 @@
 </codefragment>
 </duplication>
 <duplication lines="55" tokens="263">
-<file line="1150" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Request.java"/>
-<file line="1660" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Result.java"/>
+<file line="1151" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Request.java"/>
+<file line="1661" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Result.java"/>
 <codefragment>
 <![CDATA[
 		StringBuilder sb = new StringBuilder("R66Request(");
@@ -533,8 +533,8 @@
 </codefragment>
 </duplication>
 <duplication lines="13" tokens="233">
-<file line="31" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Request.java"/>
-<file line="31" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Result.java"/>
+<file line="32" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Request.java"/>
+<file line="32" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Result.java"/>
 <codefragment>
 <![CDATA[
 			"R66Request");
@@ -553,57 +553,9 @@
 ]]>
 </codefragment>
 </duplication>
-<duplication lines="38" tokens="228">
-<file line="791" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="1561" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="3297" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<codefragment>
-<![CDATA[
-			StringBuilder sb = new StringBuilder("transferRequestQuery_args(");
-			boolean first = true;
-
-			sb.append("request:");
-			if (this.request == null) {
-				sb.append("null");
-			} else {
-				sb.append(this.request);
-			}
-			first = false;
-			sb.append(")");
-			return sb.toString();
-		}
-
-		public void validate() throws org.apache.thrift.TException {
-			// check for required fields
-		}
-
-		private void writeObject(java.io.ObjectOutputStream out) throws java.io.IOException {
-			try {
-				write(new org.apache.thrift.protocol.TCompactProtocol(
-						new org.apache.thrift.transport.TIOStreamTransport(out)));
-			} catch (org.apache.thrift.TException te) {
-				throw new java.io.IOException(te.getMessage());
-			}
-		}
-
-		private void readObject(java.io.ObjectInputStream in) throws java.io.IOException,
-				ClassNotFoundException {
-			try {
-				read(new org.apache.thrift.protocol.TCompactProtocol(
-						new org.apache.thrift.transport.TIOStreamTransport(in)));
-			} catch (org.apache.thrift.TException te) {
-				throw new java.io.IOException(te.getMessage());
-			}
-		}
-
-		private static class transferRequestQuery_argsStandardSchemeFactory implements
-]]>
-</codefragment>
-</duplication>
-<duplication lines="38" tokens="228">
+<duplication lines="42" tokens="233">
 <file line="1177" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="1944" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="3700" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="1954" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
 <codefragment>
 <![CDATA[
 			StringBuilder sb = new StringBuilder("transferRequestQuery_result(");
@@ -622,6 +574,10 @@
 
 		public void validate() throws org.apache.thrift.TException {
 			// check for required fields
+			// check for sub-struct validity
+			if (success != null) {
+				success.validate();
+			}
 		}
 
 		private void writeObject(java.io.ObjectOutputStream out) throws java.io.IOException {
@@ -629,7 +585,7 @@
 				write(new org.apache.thrift.protocol.TCompactProtocol(
 						new org.apache.thrift.transport.TIOStreamTransport(out)));
 			} catch (org.apache.thrift.TException te) {
-				throw new java.io.IOException(te.getMessage());
+				throw new java.io.IOException(te);
 			}
 		}
 
@@ -639,7 +595,7 @@
 				read(new org.apache.thrift.protocol.TCompactProtocol(
 						new org.apache.thrift.transport.TIOStreamTransport(in)));
 			} catch (org.apache.thrift.TException te) {
-				throw new java.io.IOException(te.getMessage());
+				throw new java.io.IOException(te);
 			}
 		}
 
@@ -647,9 +603,60 @@
 ]]>
 </codefragment>
 </duplication>
+<duplication lines="42" tokens="233">
+<file line="786" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="1566" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="3319" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<codefragment>
+<![CDATA[
+			StringBuilder sb = new StringBuilder("transferRequestQuery_args(");
+			boolean first = true;
+
+			sb.append("request:");
+			if (this.request == null) {
+				sb.append("null");
+			} else {
+				sb.append(this.request);
+			}
+			first = false;
+			sb.append(")");
+			return sb.toString();
+		}
+
+		public void validate() throws org.apache.thrift.TException {
+			// check for required fields
+			// check for sub-struct validity
+			if (request != null) {
+				request.validate();
+			}
+		}
+
+		private void writeObject(java.io.ObjectOutputStream out) throws java.io.IOException {
+			try {
+				write(new org.apache.thrift.protocol.TCompactProtocol(
+						new org.apache.thrift.transport.TIOStreamTransport(out)));
+			} catch (org.apache.thrift.TException te) {
+				throw new java.io.IOException(te);
+			}
+		}
+
+		private void readObject(java.io.ObjectInputStream in) throws java.io.IOException,
+				ClassNotFoundException {
+			try {
+				read(new org.apache.thrift.protocol.TCompactProtocol(
+						new org.apache.thrift.transport.TIOStreamTransport(in)));
+			} catch (org.apache.thrift.TException te) {
+				throw new java.io.IOException(te);
+			}
+		}
+
+		private static class transferRequestQuery_argsStandardSchemeFactory implements
+]]>
+</codefragment>
+</duplication>
 <duplication lines="39" tokens="215">
-<file line="1445" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Request.java"/>
-<file line="2072" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Result.java"/>
+<file line="1447" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Request.java"/>
+<file line="2074" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Result.java"/>
 <codefragment>
 <![CDATA[
 		public void write(org.apache.thrift.protocol.TProtocol oprot, R66Request struct)
@@ -695,9 +702,9 @@
 </codefragment>
 </duplication>
 <duplication lines="33" tokens="194">
-<file line="759" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="1529" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="3265" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="754" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="1534" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="3287" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
 <codefragment>
 <![CDATA[
 			transferRequestQuery_args typedOther = (transferRequestQuery_args) other;
@@ -738,9 +745,9 @@
 </duplication>
 <duplication lines="33" tokens="194">
 <file line="1145" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="1912" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="2890" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="3668" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="1922" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="2905" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="3695" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
 <codefragment>
 <![CDATA[
 			transferRequestQuery_result typedOther = (transferRequestQuery_result) other;
@@ -780,10 +787,10 @@
 </codefragment>
 </duplication>
 <duplication lines="63" tokens="193">
-<file line="942" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="1709" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="2684" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="3444" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="941" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="1718" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="2699" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="3470" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
 <codefragment>
 <![CDATA[
 		private R66Result success; // required
@@ -854,7 +861,7 @@
 </duplication>
 <duplication lines="63" tokens="192">
 <file line="1051" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="1818" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="1828" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
 <codefragment>
 <![CDATA[
 		public transferRequestQuery_result setSuccess(R66Result success) {
@@ -924,9 +931,9 @@
 </codefragment>
 </duplication>
 <duplication lines="63" tokens="192">
-<file line="665" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="1435" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="3171" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="660" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="1440" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="3193" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
 <codefragment>
 <![CDATA[
 		public transferRequestQuery_args setRequest(R66Request request) {
@@ -995,94 +1002,9 @@
 ]]>
 </codefragment>
 </duplication>
-<duplication lines="31" tokens="192">
-<file line="798" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="1184" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="1568" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="1951" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="3304" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="3707" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<codefragment>
-<![CDATA[
-				sb.append(this.request);
-			}
-			first = false;
-			sb.append(")");
-			return sb.toString();
-		}
-
-		public void validate() throws org.apache.thrift.TException {
-			// check for required fields
-		}
-
-		private void writeObject(java.io.ObjectOutputStream out) throws java.io.IOException {
-			try {
-				write(new org.apache.thrift.protocol.TCompactProtocol(
-						new org.apache.thrift.transport.TIOStreamTransport(out)));
-			} catch (org.apache.thrift.TException te) {
-				throw new java.io.IOException(te.getMessage());
-			}
-		}
-
-		private void readObject(java.io.ObjectInputStream in) throws java.io.IOException,
-				ClassNotFoundException {
-			try {
-				read(new org.apache.thrift.protocol.TCompactProtocol(
-						new org.apache.thrift.transport.TIOStreamTransport(in)));
-			} catch (org.apache.thrift.TException te) {
-				throw new java.io.IOException(te.getMessage());
-			}
-		}
-
-		private static class transferRequestQuery_argsStandardSchemeFactory implements
-]]>
-</codefragment>
-</duplication>
-<duplication lines="29" tokens="190">
-<file line="800" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="1186" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="1570" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="1953" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="2927" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="3306" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="3709" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<codefragment>
-<![CDATA[
-			first = false;
-			sb.append(")");
-			return sb.toString();
-		}
-
-		public void validate() throws org.apache.thrift.TException {
-			// check for required fields
-		}
-
-		private void writeObject(java.io.ObjectOutputStream out) throws java.io.IOException {
-			try {
-				write(new org.apache.thrift.protocol.TCompactProtocol(
-						new org.apache.thrift.transport.TIOStreamTransport(out)));
-			} catch (org.apache.thrift.TException te) {
-				throw new java.io.IOException(te.getMessage());
-			}
-		}
-
-		private void readObject(java.io.ObjectInputStream in) throws java.io.IOException,
-				ClassNotFoundException {
-			try {
-				read(new org.apache.thrift.protocol.TCompactProtocol(
-						new org.apache.thrift.transport.TIOStreamTransport(in)));
-			} catch (org.apache.thrift.TException te) {
-				throw new java.io.IOException(te.getMessage());
-			}
-		}
-
-		private static class transferRequestQuery_argsStandardSchemeFactory implements
-]]>
-</codefragment>
-</duplication>
 <duplication lines="33" tokens="186">
-<file line="1225" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="1991" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="1229" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="2005" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
 <codefragment>
 <![CDATA[
 					transferRequestQuery_result struct) throws org.apache.thrift.TException {
@@ -1121,10 +1043,52 @@
 ]]>
 </codefragment>
 </duplication>
+<duplication lines="34" tokens="186">
+<file line="2511" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="2941" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<codefragment>
+<![CDATA[
+			sb.append(this.tid);
+			first = false;
+			sb.append(")");
+			return sb.toString();
+		}
+
+		public void validate() throws org.apache.thrift.TException {
+			// check for required fields
+			// check for sub-struct validity
+		}
+
+		private void writeObject(java.io.ObjectOutputStream out) throws java.io.IOException {
+			try {
+				write(new org.apache.thrift.protocol.TCompactProtocol(
+						new org.apache.thrift.transport.TIOStreamTransport(out)));
+			} catch (org.apache.thrift.TException te) {
+				throw new java.io.IOException(te);
+			}
+		}
+
+		private void readObject(java.io.ObjectInputStream in) throws java.io.IOException,
+				ClassNotFoundException {
+			try {
+				// it doesn't seem like you should have to do this, but java serialization is wacky,
+				// and doesn't call the default constructor.
+				__isset_bitfield = 0;
+				read(new org.apache.thrift.protocol.TCompactProtocol(
+						new org.apache.thrift.transport.TIOStreamTransport(in)));
+			} catch (org.apache.thrift.TException te) {
+				throw new java.io.IOException(te);
+			}
+		}
+
+		private static class isStillRunning_argsStandardSchemeFactory implements SchemeFactory {
+]]>
+</codefragment>
+</duplication>
 <duplication lines="33" tokens="186">
-<file line="839" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="1608" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="3343" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="838" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="1617" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="3369" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
 <codefragment>
 <![CDATA[
 					transferRequestQuery_args struct) throws org.apache.thrift.TException {
@@ -1163,82 +1127,13 @@
 ]]>
 </codefragment>
 </duplication>
-<duplication lines="27" tokens="173">
-<file line="1284" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Request.java"/>
-<file line="1855" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Result.java"/>
-<codefragment>
-<![CDATA[
-					"Required field 'mode' was not present! Struct: " + toString());
-		}
-	}
-
-	private void writeObject(java.io.ObjectOutputStream out) throws java.io.IOException {
-		try {
-			write(new org.apache.thrift.protocol.TCompactProtocol(
-					new org.apache.thrift.transport.TIOStreamTransport(out)));
-		} catch (org.apache.thrift.TException te) {
-			throw new java.io.IOException(te.getMessage());
-		}
-	}
-
-	private void readObject(java.io.ObjectInputStream in) throws java.io.IOException,
-			ClassNotFoundException {
-		try {
-			// it doesn't seem like you should have to do this, but java serialization is wacky, and
-			// doesn't call the default constructor.
-			__isset_bit_vector = new BitSet(1);
-			read(new org.apache.thrift.protocol.TCompactProtocol(
-					new org.apache.thrift.transport.TIOStreamTransport(in)));
-		} catch (org.apache.thrift.TException te) {
-			throw new java.io.IOException(te.getMessage());
-		}
-	}
-
-	private static class R66RequestStandardSchemeFactory implements SchemeFactory {
-]]>
-</codefragment>
-</duplication>
-<duplication lines="25" tokens="167">
-<file line="1286" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Request.java"/>
-<file line="1857" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Result.java"/>
-<file line="2505" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<codefragment>
-<![CDATA[
-	}
-
-	private void writeObject(java.io.ObjectOutputStream out) throws java.io.IOException {
-		try {
-			write(new org.apache.thrift.protocol.TCompactProtocol(
-					new org.apache.thrift.transport.TIOStreamTransport(out)));
-		} catch (org.apache.thrift.TException te) {
-			throw new java.io.IOException(te.getMessage());
-		}
-	}
-
-	private void readObject(java.io.ObjectInputStream in) throws java.io.IOException,
-			ClassNotFoundException {
-		try {
-			// it doesn't seem like you should have to do this, but java serialization is wacky, and
-			// doesn't call the default constructor.
-			__isset_bit_vector = new BitSet(1);
-			read(new org.apache.thrift.protocol.TCompactProtocol(
-					new org.apache.thrift.transport.TIOStreamTransport(in)));
-		} catch (org.apache.thrift.TException te) {
-			throw new java.io.IOException(te.getMessage());
-		}
-	}
-
-	private static class R66RequestStandardSchemeFactory implements SchemeFactory {
-]]>
-</codefragment>
-</duplication>
 <duplication lines="46" tokens="163">
-<file line="580" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="966" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="1350" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="1733" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="3086" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="3468" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="574" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="965" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="1354" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="1742" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="3107" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="3494" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
 <codefragment>
 <![CDATA[
 					default:
@@ -1290,9 +1185,149 @@
 ]]>
 </codefragment>
 </duplication>
+<duplication lines="28" tokens="161">
+<file line="1285" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Request.java"/>
+<file line="1856" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Result.java"/>
+<codefragment>
+<![CDATA[
+					"Required field 'mode' was not present! Struct: " + toString());
+		}
+		// check for sub-struct validity
+	}
+
+	private void writeObject(java.io.ObjectOutputStream out) throws java.io.IOException {
+		try {
+			write(new org.apache.thrift.protocol.TCompactProtocol(
+					new org.apache.thrift.transport.TIOStreamTransport(out)));
+		} catch (org.apache.thrift.TException te) {
+			throw new java.io.IOException(te);
+		}
+	}
+
+	private void readObject(java.io.ObjectInputStream in) throws java.io.IOException,
+			ClassNotFoundException {
+		try {
+			// it doesn't seem like you should have to do this, but java serialization is wacky, and
+			// doesn't call the default constructor.
+			__isset_bitfield = 0;
+			read(new org.apache.thrift.protocol.TCompactProtocol(
+					new org.apache.thrift.transport.TIOStreamTransport(in)));
+		} catch (org.apache.thrift.TException te) {
+			throw new java.io.IOException(te);
+		}
+	}
+
+	private static class R66RequestStandardSchemeFactory implements SchemeFactory {
+]]>
+</codefragment>
+</duplication>
+<duplication lines="24" tokens="157">
+<file line="804" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="1195" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="1584" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="1972" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="3337" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<codefragment>
+<![CDATA[
+				request.validate();
+			}
+		}
+
+		private void writeObject(java.io.ObjectOutputStream out) throws java.io.IOException {
+			try {
+				write(new org.apache.thrift.protocol.TCompactProtocol(
+						new org.apache.thrift.transport.TIOStreamTransport(out)));
+			} catch (org.apache.thrift.TException te) {
+				throw new java.io.IOException(te);
+			}
+		}
+
+		private void readObject(java.io.ObjectInputStream in) throws java.io.IOException,
+				ClassNotFoundException {
+			try {
+				read(new org.apache.thrift.protocol.TCompactProtocol(
+						new org.apache.thrift.transport.TIOStreamTransport(in)));
+			} catch (org.apache.thrift.TException te) {
+				throw new java.io.IOException(te);
+			}
+		}
+
+		private static class transferRequestQuery_argsStandardSchemeFactory implements
+]]>
+</codefragment>
+</duplication>
+<duplication lines="25" tokens="155">
+<file line="1288" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Request.java"/>
+<file line="1859" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Result.java"/>
+<file line="2520" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="2950" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<codefragment>
+<![CDATA[
+	}
+
+	private void writeObject(java.io.ObjectOutputStream out) throws java.io.IOException {
+		try {
+			write(new org.apache.thrift.protocol.TCompactProtocol(
+					new org.apache.thrift.transport.TIOStreamTransport(out)));
+		} catch (org.apache.thrift.TException te) {
+			throw new java.io.IOException(te);
+		}
+	}
+
+	private void readObject(java.io.ObjectInputStream in) throws java.io.IOException,
+			ClassNotFoundException {
+		try {
+			// it doesn't seem like you should have to do this, but java serialization is wacky, and
+			// doesn't call the default constructor.
+			__isset_bitfield = 0;
+			read(new org.apache.thrift.protocol.TCompactProtocol(
+					new org.apache.thrift.transport.TIOStreamTransport(in)));
+		} catch (org.apache.thrift.TException te) {
+			throw new java.io.IOException(te);
+		}
+	}
+
+	private static class R66RequestStandardSchemeFactory implements SchemeFactory {
+]]>
+</codefragment>
+</duplication>
+<duplication lines="22" tokens="152">
+<file line="806" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="1197" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="1586" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="1974" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="3339" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="3744" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<codefragment>
+<![CDATA[
+		}
+
+		private void writeObject(java.io.ObjectOutputStream out) throws java.io.IOException {
+			try {
+				write(new org.apache.thrift.protocol.TCompactProtocol(
+						new org.apache.thrift.transport.TIOStreamTransport(out)));
+			} catch (org.apache.thrift.TException te) {
+				throw new java.io.IOException(te);
+			}
+		}
+
+		private void readObject(java.io.ObjectInputStream in) throws java.io.IOException,
+				ClassNotFoundException {
+			try {
+				read(new org.apache.thrift.protocol.TCompactProtocol(
+						new org.apache.thrift.transport.TIOStreamTransport(in)));
+			} catch (org.apache.thrift.TException te) {
+				throw new java.io.IOException(te);
+			}
+		}
+
+		private static class transferRequestQuery_argsStandardSchemeFactory implements
+]]>
+</codefragment>
+</duplication>
 <duplication lines="21" tokens="151">
-<file line="1412" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Request.java"/>
-<file line="1935" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Result.java"/>
+<file line="1414" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Request.java"/>
+<file line="1937" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Result.java"/>
 <codefragment>
 <![CDATA[
 							struct.setNotraceIsSet(true);
@@ -1320,8 +1355,8 @@
 </codefragment>
 </duplication>
 <duplication lines="47" tokens="146">
-<file line="652" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Request.java"/>
-<file line="928" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Result.java"/>
+<file line="653" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Request.java"/>
+<file line="929" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Result.java"/>
 <codefragment>
 <![CDATA[
 			this.action = null;
@@ -1375,8 +1410,8 @@
 </codefragment>
 </duplication>
 <duplication lines="26" tokens="146">
-<file line="1105" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Request.java"/>
-<file line="1473" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Result.java"/>
+<file line="1106" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Request.java"/>
+<file line="1474" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Result.java"/>
 <codefragment>
 <![CDATA[
 					typedOther.notrace);
@@ -1409,16 +1444,16 @@
 </codefragment>
 </duplication>
 <duplication lines="25" tokens="137">
-<file line="1126" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Request.java"/>
-<file line="1636" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Result.java"/>
-<file line="767" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="1127" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Request.java"/>
+<file line="1637" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Result.java"/>
+<file line="762" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
 <file line="1153" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="1537" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="1920" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="2451" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="2898" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="3273" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="3676" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="1542" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="1930" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="2465" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="2913" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="3295" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="3703" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
 <codefragment>
 <![CDATA[
 					.compareTo(this.action, typedOther.action);
@@ -1449,44 +1484,10 @@
 ]]>
 </codefragment>
 </duplication>
-<duplication lines="22" tokens="131">
-<file line="2497" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="2926" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<codefragment>
-<![CDATA[
-			sb.append(this.tid);
-			first = false;
-			sb.append(")");
-			return sb.toString();
-		}
-
-		public void validate() throws org.apache.thrift.TException {
-			// check for required fields
-		}
-
-		private void writeObject(java.io.ObjectOutputStream out) throws java.io.IOException {
-			try {
-				write(new org.apache.thrift.protocol.TCompactProtocol(
-						new org.apache.thrift.transport.TIOStreamTransport(out)));
-			} catch (org.apache.thrift.TException te) {
-				throw new java.io.IOException(te.getMessage());
-			}
-		}
-
-		private void readObject(java.io.ObjectInputStream in) throws java.io.IOException,
-				ClassNotFoundException {
-			try {
-]]>
-</codefragment>
-</duplication>
-<duplication lines="21" tokens="130">
-<file line="800" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="1186" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="1570" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="1953" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="2498" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="3306" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="3709" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<duplication lines="22" tokens="126">
+<file line="2512" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="2942" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="3736" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
 <codefragment>
 <![CDATA[
 			first = false;
@@ -1496,6 +1497,7 @@
 
 		public void validate() throws org.apache.thrift.TException {
 			// check for required fields
+			// check for sub-struct validity
 		}
 
 		private void writeObject(java.io.ObjectOutputStream out) throws java.io.IOException {
@@ -1503,7 +1505,7 @@
 				write(new org.apache.thrift.protocol.TCompactProtocol(
 						new org.apache.thrift.transport.TIOStreamTransport(out)));
 			} catch (org.apache.thrift.TException te) {
-				throw new java.io.IOException(te.getMessage());
+				throw new java.io.IOException(te);
 			}
 		}
 
@@ -1514,8 +1516,8 @@
 </codefragment>
 </duplication>
 <duplication lines="15" tokens="122">
-<file line="279" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="325" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="257" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="303" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
 <codefragment>
 <![CDATA[
 				transferRequestQuery_args args = new transferRequestQuery_args();
@@ -1537,8 +1539,8 @@
 </codefragment>
 </duplication>
 <duplication lines="9" tokens="119">
-<file line="241" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Request.java"/>
-<file line="269" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Result.java"/>
+<file line="242" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Request.java"/>
+<file line="270" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Result.java"/>
 <codefragment>
 <![CDATA[
 						org.apache.thrift.protocol.TType.BOOL)));
@@ -1554,8 +1556,8 @@
 </codefragment>
 </duplication>
 <duplication lines="19" tokens="117">
-<file line="1632" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Request.java"/>
-<file line="2330" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Result.java"/>
+<file line="1634" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Request.java"/>
+<file line="2332" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Result.java"/>
 <codefragment>
 <![CDATA[
 			BitSet incoming = iprot.readBitSet(12);
@@ -1581,8 +1583,8 @@
 </codefragment>
 </duplication>
 <duplication lines="21" tokens="110">
-<file line="958" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Request.java"/>
-<file line="1271" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Result.java"/>
+<file line="959" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Request.java"/>
+<file line="1272" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Result.java"/>
 <codefragment>
 <![CDATA[
 			if (this.notrace != that.notrace)
@@ -1610,8 +1612,8 @@
 </codefragment>
 </duplication>
 <duplication lines="42" tokens="109">
-<file line="192" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Result.java"/>
-<file line="2128" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="193" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Result.java"/>
+<file line="2142" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
 <codefragment>
 <![CDATA[
 				default:
@@ -1660,10 +1662,10 @@
 </codefragment>
 </duplication>
 <duplication lines="41" tokens="105">
-<file line="146" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Request.java"/>
-<file line="192" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Result.java"/>
-<file line="2128" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="2708" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="147" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Request.java"/>
+<file line="193" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Result.java"/>
+<file line="2142" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="2723" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
 <codefragment>
 <![CDATA[
 				default:
@@ -1711,9 +1713,9 @@
 </codefragment>
 </duplication>
 <duplication lines="12" tokens="102">
-<file line="266" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="312" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="408" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="244" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="290" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="386" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
 <codefragment>
 <![CDATA[
 					org.apache.thrift.async.AsyncMethodCallback<transferRequestQuery_call> resultHandler,
@@ -1731,43 +1733,17 @@
 ]]>
 </codefragment>
 </duplication>
-<duplication lines="18" tokens="101">
-<file line="272" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Request.java"/>
-<file line="352" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Result.java"/>
-<codefragment>
-<![CDATA[
-	public R66Request(R66Request other) {
-		__isset_bit_vector.clear();
-		__isset_bit_vector.or(other.__isset_bit_vector);
-		if (other.isSetMode()) {
-			this.mode = other.mode;
-		}
-		if (other.isSetFromuid()) {
-			this.fromuid = other.fromuid;
-		}
-		if (other.isSetDestuid()) {
-			this.destuid = other.destuid;
-		}
-		if (other.isSetFile()) {
-			this.file = other.file;
-		}
-		if (other.isSetRule()) {
-			this.rule = other.rule;
-		}
-]]>
-</codefragment>
-</duplication>
 <duplication lines="38" tokens="101">
-<file line="146" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Request.java"/>
-<file line="192" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Result.java"/>
-<file line="580" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="966" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="1350" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="1733" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="2128" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="2708" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="3086" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="3468" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="147" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Request.java"/>
+<file line="193" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Result.java"/>
+<file line="574" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="965" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="1354" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="1742" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="2142" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="2723" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="3107" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="3494" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
 <codefragment>
 <![CDATA[
 				default:
@@ -1812,10 +1788,10 @@
 </codefragment>
 </duplication>
 <duplication lines="9" tokens="100">
-<file line="285" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="331" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="382" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="427" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="263" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="309" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="360" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
+<file line="405" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
 <codefragment>
 <![CDATA[
 			public R66Result getResult() throws org.apache.thrift.TException {
@@ -1827,35 +1803,6 @@
 				org.apache.thrift.protocol.TProtocol prot = client.getProtocolFactory()
 						.getProtocol(memoryTransport);
 				return (new Client(prot)).recv_transferRequestQuery();
-]]>
-</codefragment>
-</duplication>
-<duplication lines="14" tokens="100">
-<file line="1286" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Request.java"/>
-<file line="1857" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Result.java"/>
-<file line="807" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="1193" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="1577" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="1960" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="2934" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="3313" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<file line="3716" path="J:\Git\github\waarp-digest\WaarpThrift\src\main\java\org\waarp\thrift\r66\R66Service.java"/>
-<codefragment>
-<![CDATA[
-	}
-
-	private void writeObject(java.io.ObjectOutputStream out) throws java.io.IOException {
-		try {
-			write(new org.apache.thrift.protocol.TCompactProtocol(
-					new org.apache.thrift.transport.TIOStreamTransport(out)));
-		} catch (org.apache.thrift.TException te) {
-			throw new java.io.IOException(te.getMessage());
-		}
-	}
-
-	private void readObject(java.io.ObjectInputStream in) throws java.io.IOException,
-			ClassNotFoundException {
-		try {
 ]]>
 </codefragment>
 </duplication>
