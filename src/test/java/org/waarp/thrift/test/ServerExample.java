@@ -32,57 +32,57 @@ import org.waarp.thrift.r66.R66Service;
  * 
  */
 public class ServerExample implements Runnable {
-	/*
-	 * Benchmark<br>
-	 * Blocking: JDK6-32 13640/s JDK6-64 7004 JKD7-64 7385<br>
-	 * NonBlocking: JDK6-32 17125/s JKD7-64 7923<br>
-	 * Blocking: 5Threads JKD7-64 10436 JDK7-32 6324<br>
-	 * NonBlocking: 5Threads JKD7-64 12820 JDK7-32 4958<br>
-	 * 
-	 * New tests: JDK7-32 5Threads: in BinaryProtocol<br>
-	 * NonBlocking TThreadedSelectorServer: 8908/29561<br>
-	 * NonBlocking TNonblockingServer: 11285/34148<br>
-	 * Blocking TThreadPoolServer: 17021/52714<br>
-	 * 
-	 * Same in TJSONProtocol<br>
-	 * Blocking TThreadPoolServer: ?/?<br>
-	 * 
-	 * Same in TCompactProtocol<br>
-	 * Blocking TThreadPoolServer: ?/49309<br>
-	 */
-	private static boolean isBlocking = true;
-	private static final int PORT = 7911;
+    /*
+     * Benchmark<br>
+     * Blocking: JDK6-32 13640/s JDK6-64 7004 JKD7-64 7385<br>
+     * NonBlocking: JDK6-32 17125/s JKD7-64 7923<br>
+     * Blocking: 5Threads JKD7-64 10436 JDK7-32 6324<br>
+     * NonBlocking: 5Threads JKD7-64 12820 JDK7-32 4958<br>
+     * 
+     * New tests: JDK7-32 5Threads: in BinaryProtocol<br>
+     * NonBlocking TThreadedSelectorServer: 8908/29561<br>
+     * NonBlocking TNonblockingServer: 11285/34148<br>
+     * Blocking TThreadPoolServer: 17021/52714<br>
+     * 
+     * Same in TJSONProtocol<br>
+     * Blocking TThreadPoolServer: ?/?<br>
+     * 
+     * Same in TCompactProtocol<br>
+     * Blocking TThreadPoolServer: ?/49309<br>
+     */
+    private static boolean isBlocking = true;
+    private static final int PORT = 7911;
 
-	public void run() {
-		try {
-			TServerTransport serverTransport = null;
-			if (isBlocking) {
-				serverTransport = new TServerSocket(PORT);
-			} else {
-				serverTransport = new TNonblockingServerSocket(PORT);
-			}
-			R66Service.Processor<R66ServiceImpl> processor = new R66Service.Processor<R66ServiceImpl>(
-					new R66ServiceImpl());
-			TServer server = null;
-			if (isBlocking) {
-				server = new TThreadPoolServer(
-						new TThreadPoolServer.Args(serverTransport).processor(processor));
-			} else {
-				/*server = new TThreadedSelectorServer(
-						new TThreadedSelectorServer.Args((TNonblockingServerTransport) serverTransport)
-						.processor(processor));*/
-				server = new TNonblockingServer(
-						new TNonblockingServer.Args((TNonblockingServerTransport) serverTransport)
-								.processor(processor));
-			}
-			System.out.println("Starting server on port " + PORT);
-			server.serve();
-		} catch (TTransportException e) {
-			e.printStackTrace();
-		}
-	}
+    public void run() {
+        try {
+            TServerTransport serverTransport = null;
+            if (isBlocking) {
+                serverTransport = new TServerSocket(PORT);
+            } else {
+                serverTransport = new TNonblockingServerSocket(PORT);
+            }
+            R66Service.Processor<R66ServiceImpl> processor = new R66Service.Processor<R66ServiceImpl>(
+                    new R66ServiceImpl());
+            TServer server = null;
+            if (isBlocking) {
+                server = new TThreadPoolServer(
+                        new TThreadPoolServer.Args(serverTransport).processor(processor));
+            } else {
+                /*server = new TThreadedSelectorServer(
+                		new TThreadedSelectorServer.Args((TNonblockingServerTransport) serverTransport)
+                		.processor(processor));*/
+                server = new TNonblockingServer(
+                        new TNonblockingServer.Args((TNonblockingServerTransport) serverTransport)
+                                .processor(processor));
+            }
+            System.out.println("Starting server on port " + PORT);
+            server.serve();
+        } catch (TTransportException e) {
+            e.printStackTrace();
+        }
+    }
 
-	public static void main(String[] args) {
-		new Thread(new ServerExample()).run();
-	}
+    public static void main(String[] args) {
+        new Thread(new ServerExample()).run();
+    }
 }

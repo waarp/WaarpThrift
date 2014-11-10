@@ -31,97 +31,98 @@ import org.waarp.thrift.r66.RequestMode;
 
 /**
  * Example of Java class to interact with the Thrift R66 service
+ * 
  * @author "Frederic Bregier"
  * 
  */
 public class ClientExample implements Runnable {
-	private static final int PORT = 7911;
-	private static final int tries = 100000;
+    private static final int PORT = 7911;
+    private static final int tries = 100000;
 
-	public static void main(String[] args) {
-		try {
-			TTransport transport = null;
-			transport = new TSocket("localhost", PORT);
-			TProtocol protocol = new TBinaryProtocol(transport);
-			R66Service.Client client = new R66Service.Client(protocol);
-			transport.open();
-			R66Request request = new R66Request(RequestMode.SYNCTRANSFER);
-			request.setFromuid("myclient");
-			request.setDestuid("mypartner");
-			request.setRule("myruletouse");
-			request.setFile("pathtomyfile.txt");
-			request.setInfo("my info send on the wire");
-			request.setMd5(true);
+    public static void main(String[] args) {
+        try {
+            TTransport transport = null;
+            transport = new TSocket("localhost", PORT);
+            TProtocol protocol = new TBinaryProtocol(transport);
+            R66Service.Client client = new R66Service.Client(protocol);
+            transport.open();
+            R66Request request = new R66Request(RequestMode.SYNCTRANSFER);
+            request.setFromuid("myclient");
+            request.setDestuid("mypartner");
+            request.setRule("myruletouse");
+            request.setFile("pathtomyfile.txt");
+            request.setInfo("my info send on the wire");
+            request.setMd5(true);
 
-			System.out.println("REQUEST1: " + request.toString());
-			R66Result result = client.transferRequestQuery(request);
-			System.out.println("RESULT1: " + result.toString());
+            System.out.println("REQUEST1: " + request.toString());
+            R66Result result = client.transferRequestQuery(request);
+            System.out.println("RESULT1: " + result.toString());
 
-			long start = System.currentTimeMillis();
-			for (int i = 0; i < tries; i++) {
-				result = client.transferRequestQuery(request);
-			}
-			long end = System.currentTimeMillis();
-			System.out
-					.println("Delay: " + (end - start) + " : " + ((tries * 1000) / (end - start)));
+            long start = System.currentTimeMillis();
+            for (int i = 0; i < tries; i++) {
+                result = client.transferRequestQuery(request);
+            }
+            long end = System.currentTimeMillis();
+            System.out
+                    .println("Delay: " + (end - start) + " : " + ((tries * 1000) / (end - start)));
 
-			request.setMode(RequestMode.INFOREQUEST);
-			request.setTid(result.getTid());
-			request.setAction(Action.Detail);
-			result = client.infoTransferQuery(request);
-			System.out.println("RESULT2: " + result.toString());
+            request.setMode(RequestMode.INFOREQUEST);
+            request.setTid(result.getTid());
+            request.setAction(Action.Detail);
+            result = client.infoTransferQuery(request);
+            System.out.println("RESULT2: " + result.toString());
 
-			System.out.println("Exist: "
-					+
-					client.isStillRunning(request.getFromuid(), request.getDestuid(),
-							request.getTid()));
+            System.out.println("Exist: "
+                    +
+                    client.isStillRunning(request.getFromuid(), request.getDestuid(),
+                            request.getTid()));
 
-			request.setMode(RequestMode.INFOFILE);
-			request.setAction(Action.List);
-			result = client.infoTransferQuery(request);
-			System.out.println("RESULT3: " + result.toString());
+            request.setMode(RequestMode.INFOFILE);
+            request.setAction(Action.List);
+            result = client.infoTransferQuery(request);
+            System.out.println("RESULT3: " + result.toString());
 
-			transport.close();
-		} catch (TTransportException e) {
-			e.printStackTrace();
-		} catch (TException e) {
-			e.printStackTrace();
-		}
-	}
+            transport.close();
+        } catch (TTransportException e) {
+            e.printStackTrace();
+        } catch (TException e) {
+            e.printStackTrace();
+        }
+    }
 
-	public void run() {
-		try {
-			TTransport transport = null;
-			transport = new TSocket("localhost", PORT);
-			TProtocol protocol = new TBinaryProtocol(transport);
-			R66Service.Client client = new R66Service.Client(protocol);
-			transport.open();
-			R66Request request = new R66Request(RequestMode.SYNCTRANSFER);
-			request.setFromuid("myclient");
-			request.setDestuid("mypartner");
-			request.setRule("myruletouse");
-			request.setFile("pathtomyfile.txt");
-			request.setInfo("my info send on the wire");
-			request.setMd5(true);
+    public void run() {
+        try {
+            TTransport transport = null;
+            transport = new TSocket("localhost", PORT);
+            TProtocol protocol = new TBinaryProtocol(transport);
+            R66Service.Client client = new R66Service.Client(protocol);
+            transport.open();
+            R66Request request = new R66Request(RequestMode.SYNCTRANSFER);
+            request.setFromuid("myclient");
+            request.setDestuid("mypartner");
+            request.setRule("myruletouse");
+            request.setFile("pathtomyfile.txt");
+            request.setInfo("my info send on the wire");
+            request.setMd5(true);
 
-			System.out.println("REQUEST1: " + request.toString());
-			R66Result result = client.transferRequestQuery(request);
-			System.out.println("RESULT1: " + result.toString());
+            System.out.println("REQUEST1: " + request.toString());
+            R66Result result = client.transferRequestQuery(request);
+            System.out.println("RESULT1: " + result.toString());
 
-			long start = System.currentTimeMillis();
-			for (int i = 0; i < tries; i++) {
-				result = client.transferRequestQuery(request);
-			}
-			long end = System.currentTimeMillis();
-			System.out
-					.println("Delay: " + (end - start) + " : " + ((tries * 1000) / (end - start)));
+            long start = System.currentTimeMillis();
+            for (int i = 0; i < tries; i++) {
+                result = client.transferRequestQuery(request);
+            }
+            long end = System.currentTimeMillis();
+            System.out
+                    .println("Delay: " + (end - start) + " : " + ((tries * 1000) / (end - start)));
 
-			transport.close();
-		} catch (TTransportException e) {
-			e.printStackTrace();
-		} catch (TException e) {
-			e.printStackTrace();
-		}
-	}
+            transport.close();
+        } catch (TTransportException e) {
+            e.printStackTrace();
+        } catch (TException e) {
+            e.printStackTrace();
+        }
+    }
 
 }
