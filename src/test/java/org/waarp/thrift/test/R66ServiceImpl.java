@@ -32,52 +32,52 @@ import org.waarp.thrift.r66.R66Service;
  */
 public class R66ServiceImpl implements R66Service.Iface {
 
-	public R66Result transferRequestQuery(R66Request request) throws TException {
-		R66Result result = new R66Result(request.getMode(), ErrorCode.CompleteOk, "Test only");
-		result.setFromuid(request.getFromuid());
-		result.setDestuid(request.getDestuid());
-		result.setFile("Target_" + request.getFile());
-		result.setRule(request.getRule());
-		result.setTid(System.currentTimeMillis());
-		result.setGloballaststep(2);
-		result.setGlobalstep(2);
-		result.setStep(1);
-		result.setRank(1023);
-		result.setRetrievemode(true);
-		result.setIsmoved(false);
-		result.setOriginalfilename(request.getFile());
-		result.setModetransfer(4);
-		result.setStart("2009-08-13 12:26:43.209");
-		result.setStart("2009-08-13 12:26:46.079");
-		return result;
-	}
+    public R66Result transferRequestQuery(R66Request request) throws TException {
+        R66Result result = new R66Result(request.getMode(), ErrorCode.CompleteOk, "Test only");
+        result.setFromuid(request.getFromuid());
+        result.setDestuid(request.getDestuid());
+        result.setFile("Target_" + request.getFile());
+        result.setRule(request.getRule());
+        result.setTid(System.currentTimeMillis());
+        result.setGloballaststep(2);
+        result.setGlobalstep(2);
+        result.setStep(1);
+        result.setRank(1023);
+        result.setRetrievemode(true);
+        result.setIsmoved(false);
+        result.setOriginalfilename(request.getFile());
+        result.setModetransfer(4);
+        result.setStart("2009-08-13 12:26:43.209");
+        result.setStart("2009-08-13 12:26:46.079");
+        return result;
+    }
 
-	public R66Result infoTransferQuery(R66Request request) throws TException {
-		R66Result result = new R66Result(request.getMode(), ErrorCode.CompleteOk, "Test Info only");
-		result.setDestuid(request.getDestuid());
-		result.setTid(request.getTid());
-		result.setAction(request.getAction());
-		result.setGloballaststep(2);
-		result.setGlobalstep(2);
-		result.setStep(1);
-		result.setRank(1023);
-		result.setRetrievemode(true);
-		result.setIsmoved(false);
-		result.setModetransfer(4);
-		result.setStart("2009-08-13 12:26:43.209");
-		result.setStart("2009-08-13 12:26:46.079");
-		return result;
-	}
+    public R66Result infoTransferQuery(R66Request request) throws TException {
+        R66Result result = new R66Result(request.getMode(), ErrorCode.CompleteOk, "Test Info only");
+        result.setDestuid(request.getDestuid());
+        result.setTid(request.getTid());
+        result.setAction(request.getAction());
+        result.setGloballaststep(2);
+        result.setGlobalstep(2);
+        result.setStep(1);
+        result.setRank(1023);
+        result.setRetrievemode(true);
+        result.setIsmoved(false);
+        result.setModetransfer(4);
+        result.setStart("2009-08-13 12:26:43.209");
+        result.setStart("2009-08-13 12:26:46.079");
+        return result;
+    }
 
-	public boolean isStillRunning(String fromuid, String touid, long tid) throws TException {
-		return true;
-	}
+    public boolean isStillRunning(String fromuid, String touid, long tid) throws TException {
+        return true;
+    }
 
-	public List<String> infoListQuery(R66Request request) throws TException {
-		List<String> list = new ArrayList<String>(2);
-		list.add("listing file1 test 000");
-		list.add("listing file12 test 123");
-		return list;
-	}
+    public List<String> infoListQuery(R66Request request) throws TException {
+        List<String> list = new ArrayList<String>(2);
+        list.add("listing file1 test 000");
+        list.add("listing file12 test 123");
+        return list;
+    }
 
 }
