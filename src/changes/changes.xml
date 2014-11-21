@@ -5,7 +5,13 @@
 		<author email="waarp1 at free.fr">Frederic Bregier</author>
 	</properties>
 	<body>
-		<release version="1.0.0" date="2012-08-27" description="First release">
+        <release version="1.1.1" date="2014-12-01" description="Fix release">
+            <action dev="Frederic Bregier" type="fix">Upgrade dependencies</action>
+        </release>
+	    <release version="1.1.0" date="2013-04-01" description="First release">
+            <action dev="Frederic Bregier" type="fix">First release</action>
+        </release>
+        <release version="1.0.0" date="2012-08-27" description="First release">
 			<action dev="Frederic Bregier" type="fix">First release</action>
 		</release>
 	</body>
