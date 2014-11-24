@@ -211,7 +211,6 @@
 	          <windowtitle>${project.name} ${project.version} API Reference</windowtitle>
 	          <additionalparam>
 	            -link http://java.sun.com/javase/6/docs/api/
-	            -link http://static.netty.io/3.5/api/
 
 				-group "Waarp Thrift Client and Server package" "org.waarp.thrift.r66*"
 				-group "Waarp Thrift Util package" "org.waarp.thrift.util*"
