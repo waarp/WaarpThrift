@@ -111,7 +111,7 @@
 <a class="jxr_linenumber" name="L103" href="#L103">103</a> <em class="jxr_javadoccomment">     * The set of fields this struct contains, along with convenience methods for finding and</em>
 <a class="jxr_linenumber" name="L104" href="#L104">104</a> <em class="jxr_javadoccomment">     * manipulating them.</em>
 <a class="jxr_linenumber" name="L105" href="#L105">105</a> <em class="jxr_javadoccomment">     */</em>
-<a class="jxr_linenumber" name="L106" href="#L106">106</a>     <strong class="jxr_keyword">public</strong> enum <a href="../../../../org/waarp/thrift/r66/R66Service.html">_Fields</a> <strong class="jxr_keyword">implements</strong> org.apache.thrift.TFieldIdEnum {
+<a class="jxr_linenumber" name="L106" href="#L106">106</a>     <strong class="jxr_keyword">public</strong> enum <a href="../../../../org/waarp/thrift/r66/R66Result.html">_Fields</a> <strong class="jxr_keyword">implements</strong> org.apache.thrift.TFieldIdEnum {
 <a class="jxr_linenumber" name="L107" href="#L107">107</a>         <em class="jxr_javadoccomment">/**</em>
 <a class="jxr_linenumber" name="L108" href="#L108">108</a> <em class="jxr_javadoccomment">         * </em>
 <a class="jxr_linenumber" name="L109" href="#L109">109</a> <em class="jxr_javadoccomment">         * @see RequestMode</em>
@@ -156,7 +156,7 @@
 <a class="jxr_linenumber" name="L148" href="#L148">148</a>         <em class="jxr_javadoccomment">/**</em>
 <a class="jxr_linenumber" name="L149" href="#L149">149</a> <em class="jxr_javadoccomment">         * Find the _Fields constant that matches fieldId, or null if its not found.</em>
 <a class="jxr_linenumber" name="L150" href="#L150">150</a> <em class="jxr_javadoccomment">         */</em>
-<a class="jxr_linenumber" name="L151" href="#L151">151</a>         <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <a href="../../../../org/waarp/thrift/r66/R66Service.html">_Fields</a> findByThriftId(<strong class="jxr_keyword">int</strong> fieldId) {
+<a class="jxr_linenumber" name="L151" href="#L151">151</a>         <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <a href="../../../../org/waarp/thrift/r66/R66Result.html">_Fields</a> findByThriftId(<strong class="jxr_keyword">int</strong> fieldId) {
 <a class="jxr_linenumber" name="L152" href="#L152">152</a>             <strong class="jxr_keyword">switch</strong> (fieldId) {
 <a class="jxr_linenumber" name="L153" href="#L153">153</a>                 <strong class="jxr_keyword">case</strong> 1: <em class="jxr_comment">// MODE</em>
 <a class="jxr_linenumber" name="L154" href="#L154">154</a>                     <strong class="jxr_keyword">return</strong> MODE;
@@ -206,8 +206,8 @@
 <a class="jxr_linenumber" name="L198" href="#L198">198</a>         <em class="jxr_javadoccomment">/**</em>
 <a class="jxr_linenumber" name="L199" href="#L199">199</a> <em class="jxr_javadoccomment">         * Find the _Fields constant that matches fieldId, throwing an exception if it is not found.</em>
 <a class="jxr_linenumber" name="L200" href="#L200">200</a> <em class="jxr_javadoccomment">         */</em>
-<a class="jxr_linenumber" name="L201" href="#L201">201</a>         <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <a href="../../../../org/waarp/thrift/r66/R66Service.html">_Fields</a> findByThriftIdOrThrow(<strong class="jxr_keyword">int</strong> fieldId) {
-<a class="jxr_linenumber" name="L202" href="#L202">202</a>             <a href="../../../../org/waarp/thrift/r66/R66Service.html">_Fields</a> fields = findByThriftId(fieldId);
+<a class="jxr_linenumber" name="L201" href="#L201">201</a>         <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <a href="../../../../org/waarp/thrift/r66/R66Result.html">_Fields</a> findByThriftIdOrThrow(<strong class="jxr_keyword">int</strong> fieldId) {
+<a class="jxr_linenumber" name="L202" href="#L202">202</a>             <a href="../../../../org/waarp/thrift/r66/R66Result.html">_Fields</a> fields = findByThriftId(fieldId);
 <a class="jxr_linenumber" name="L203" href="#L203">203</a>             <strong class="jxr_keyword">if</strong> (fields == <strong class="jxr_keyword">null</strong>)
 <a class="jxr_linenumber" name="L204" href="#L204">204</a>                 <strong class="jxr_keyword">throw</strong> <strong class="jxr_keyword">new</strong> IllegalArgumentException(<span class="jxr_string">"Field "</span> + fieldId + <span class="jxr_string">" doesn't exist!"</span>);
 <a class="jxr_linenumber" name="L205" href="#L205">205</a>             <strong class="jxr_keyword">return</strong> fields;
@@ -216,14 +216,14 @@
 <a class="jxr_linenumber" name="L208" href="#L208">208</a>         <em class="jxr_javadoccomment">/**</em>
 <a class="jxr_linenumber" name="L209" href="#L209">209</a> <em class="jxr_javadoccomment">         * Find the _Fields constant that matches name, or null if its not found.</em>
 <a class="jxr_linenumber" name="L210" href="#L210">210</a> <em class="jxr_javadoccomment">         */</em>
-<a class="jxr_linenumber" name="L211" href="#L211">211</a>         <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <a href="../../../../org/waarp/thrift/r66/R66Service.html">_Fields</a> findByName(String name) {
+<a class="jxr_linenumber" name="L211" href="#L211">211</a>         <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <a href="../../../../org/waarp/thrift/r66/R66Result.html">_Fields</a> findByName(String name) {
 <a class="jxr_linenumber" name="L212" href="#L212">212</a>             <strong class="jxr_keyword">return</strong> byName.get(name);
 <a class="jxr_linenumber" name="L213" href="#L213">213</a>         }
 <a class="jxr_linenumber" name="L214" href="#L214">214</a> 
 <a class="jxr_linenumber" name="L215" href="#L215">215</a>         <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">final</strong> <strong class="jxr_keyword">short</strong> _thriftId;
 <a class="jxr_linenumber" name="L216" href="#L216">216</a>         <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">final</strong> String _fieldName;
 <a class="jxr_linenumber" name="L217" href="#L217">217</a> 
-<a class="jxr_linenumber" name="L218" href="#L218">218</a>         <a href="../../../../org/waarp/thrift/r66/R66Service.html">_Fields</a>(<strong class="jxr_keyword">short</strong> thriftId, String fieldName) {
+<a class="jxr_linenumber" name="L218" href="#L218">218</a>         <a href="../../../../org/waarp/thrift/r66/R66Result.html">_Fields</a>(<strong class="jxr_keyword">short</strong> thriftId, String fieldName) {
 <a class="jxr_linenumber" name="L219" href="#L219">219</a>             _thriftId = thriftId;
 <a class="jxr_linenumber" name="L220" href="#L220">220</a>             _fieldName = fieldName;
 <a class="jxr_linenumber" name="L221" href="#L221">221</a>         }
@@ -248,7 +248,7 @@
 <a class="jxr_linenumber" name="L240" href="#L240">240</a>     <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> <strong class="jxr_keyword">int</strong> __BLOCKSIZE_ISSET_ID = 7;
 <a class="jxr_linenumber" name="L241" href="#L241">241</a>     <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> <strong class="jxr_keyword">int</strong> __MODETRANSFER_ISSET_ID = 8;
 <a class="jxr_linenumber" name="L242" href="#L242">242</a>     <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">short</strong> __isset_bitfield = 0;
-<a class="jxr_linenumber" name="L243" href="#L243">243</a>     <strong class="jxr_keyword">private</strong> <a href="../../../../org/waarp/thrift/r66/R66Service.html">_Fields</a> optionals[] = { _Fields.FROMUID, _Fields.DESTUID, _Fields.FILE, _Fields.RULE,
+<a class="jxr_linenumber" name="L243" href="#L243">243</a>     <strong class="jxr_keyword">private</strong> <a href="../../../../org/waarp/thrift/r66/R66Result.html">_Fields</a> optionals[] = { _Fields.FROMUID, _Fields.DESTUID, _Fields.FILE, _Fields.RULE,
 <a class="jxr_linenumber" name="L244" href="#L244">244</a>             _Fields.TID, _Fields.ACTION, _Fields.GLOBALSTEP, _Fields.GLOBALLASTSTEP, _Fields.STEP,
 <a class="jxr_linenumber" name="L245" href="#L245">245</a>             _Fields.RANK, _Fields.RETRIEVEMODE, _Fields.ISMOVED, _Fields.ORIGINALFILENAME,
 <a class="jxr_linenumber" name="L246" href="#L246">246</a>             _Fields.BLOCKSIZE, _Fields.MODETRANSFER, _Fields.START, _Fields.STOP };
@@ -938,7 +938,7 @@
 <a class="jxr_linenumber" name="L930" href="#L930">930</a>         }
 <a class="jxr_linenumber" name="L931" href="#L931">931</a>     }
 <a class="jxr_linenumber" name="L932" href="#L932">932</a> 
-<a class="jxr_linenumber" name="L933" href="#L933">933</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> setFieldValue(<a href="../../../../org/waarp/thrift/r66/R66Service.html">_Fields</a> field, Object value) {
+<a class="jxr_linenumber" name="L933" href="#L933">933</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> setFieldValue(<a href="../../../../org/waarp/thrift/r66/R66Result.html">_Fields</a> field, Object value) {
 <a class="jxr_linenumber" name="L934" href="#L934">934</a>         <strong class="jxr_keyword">switch</strong> (field) {
 <a class="jxr_linenumber" name="L935" href="#L935">935</a>             <strong class="jxr_keyword">case</strong> MODE:
 <a class="jxr_linenumber" name="L936" href="#L936">936</a>                 <strong class="jxr_keyword">if</strong> (value == <strong class="jxr_keyword">null</strong>) {
@@ -1103,7 +1103,7 @@
 <a class="jxr_linenumber" name="L1095" href="#L1095">1095</a>         }
 <a class="jxr_linenumber" name="L1096" href="#L1096">1096</a>     }
 <a class="jxr_linenumber" name="L1097" href="#L1097">1097</a> 
-<a class="jxr_linenumber" name="L1098" href="#L1098">1098</a>     <strong class="jxr_keyword">public</strong> Object getFieldValue(<a href="../../../../org/waarp/thrift/r66/R66Service.html">_Fields</a> field) {
+<a class="jxr_linenumber" name="L1098" href="#L1098">1098</a>     <strong class="jxr_keyword">public</strong> Object getFieldValue(<a href="../../../../org/waarp/thrift/r66/R66Result.html">_Fields</a> field) {
 <a class="jxr_linenumber" name="L1099" href="#L1099">1099</a>         <strong class="jxr_keyword">switch</strong> (field) {
 <a class="jxr_linenumber" name="L1100" href="#L1100">1100</a>             <strong class="jxr_keyword">case</strong> MODE:
 <a class="jxr_linenumber" name="L1101" href="#L1101">1101</a>                 <strong class="jxr_keyword">return</strong> getMode();
@@ -1173,7 +1173,7 @@
 <a class="jxr_linenumber" name="L1165" href="#L1165">1165</a> <em class="jxr_javadoccomment">     * Returns true if field corresponding to fieldID is set (has been assigned a value) and false</em>
 <a class="jxr_linenumber" name="L1166" href="#L1166">1166</a> <em class="jxr_javadoccomment">     * otherwise</em>
 <a class="jxr_linenumber" name="L1167" href="#L1167">1167</a> <em class="jxr_javadoccomment">     */</em>
-<a class="jxr_linenumber" name="L1168" href="#L1168">1168</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">boolean</strong> isSet(<a href="../../../../org/waarp/thrift/r66/R66Service.html">_Fields</a> field) {
+<a class="jxr_linenumber" name="L1168" href="#L1168">1168</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">boolean</strong> isSet(<a href="../../../../org/waarp/thrift/r66/R66Result.html">_Fields</a> field) {
 <a class="jxr_linenumber" name="L1169" href="#L1169">1169</a>         <strong class="jxr_keyword">if</strong> (field == <strong class="jxr_keyword">null</strong>) {
 <a class="jxr_linenumber" name="L1170" href="#L1170">1170</a>             <strong class="jxr_keyword">throw</strong> <strong class="jxr_keyword">new</strong> IllegalArgumentException();
 <a class="jxr_linenumber" name="L1171" href="#L1171">1171</a>         }
@@ -1650,7 +1650,7 @@
 <a class="jxr_linenumber" name="L1642" href="#L1642">1642</a>         <strong class="jxr_keyword">return</strong> 0;
 <a class="jxr_linenumber" name="L1643" href="#L1643">1643</a>     }
 <a class="jxr_linenumber" name="L1644" href="#L1644">1644</a> 
-<a class="jxr_linenumber" name="L1645" href="#L1645">1645</a>     <strong class="jxr_keyword">public</strong> <a href="../../../../org/waarp/thrift/r66/R66Service.html">_Fields</a> fieldForId(<strong class="jxr_keyword">int</strong> fieldId) {
+<a class="jxr_linenumber" name="L1645" href="#L1645">1645</a>     <strong class="jxr_keyword">public</strong> <a href="../../../../org/waarp/thrift/r66/R66Result.html">_Fields</a> fieldForId(<strong class="jxr_keyword">int</strong> fieldId) {
 <a class="jxr_linenumber" name="L1646" href="#L1646">1646</a>         <strong class="jxr_keyword">return</strong> _Fields.findByThriftId(fieldId);
 <a class="jxr_linenumber" name="L1647" href="#L1647">1647</a>     }
 <a class="jxr_linenumber" name="L1648" href="#L1648">1648</a> 
