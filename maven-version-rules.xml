@@ -55,5 +55,10 @@
         <ignoreVersion type="regex">^2\.9\..+</ignoreVersion>
       </ignoreVersions>
     </rule>
+    <rule groupId="org.apache.thrift" artifactId="libthrift">
+      <ignoreVersions>
+        <ignoreVersion type="regex">^0\.1.\..+</ignoreVersion>
+      </ignoreVersions>
+    </rule>
   </rules>
 </ruleset>
